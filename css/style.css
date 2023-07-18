@@ -78,6 +78,7 @@ nav h1 {
 .banner-images img {
     width: 350px;
     height: 330px;
+    padding-bottom: 30px;
     background-image: url("../images/Circle design.svg");
     background-size: cover;
 
@@ -89,8 +90,7 @@ nav h1 {
     display: flex;
     justify-content: space-around;
     border: 1px solid seashell;
-    margin-right: 150px;
-    margin-left: 150px;
+   margin: 50px 150px 5px 150px;
 }
 
 /* Popular Collection style start */

@@ -112,6 +112,9 @@ nav h1 {
     gap: 30px;
     margin-left: 90px;
     margin-right: 90px;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 10px;
 }
 
 .box {
@@ -215,11 +218,15 @@ footer p {
     padding-top: 4px;
     padding-bottom: 18px;
 }
-
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .icon img {
     width: 1.5%;
     height: 1.5%;
-    gap: 30px;
+    /* gap: 30px; */
 
 }
 

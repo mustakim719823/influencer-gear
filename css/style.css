@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:ital,wght@0,600;0,700;0,800;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav style start here  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+
+nav h1 {
+    color: #3A3A3A;
+    font-size: 1.6rem;
+    font-weight: 700px;
+
+}
+
+.home-btn {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    gap: 60px;
+    /* border: 3px solid forestgreen; */
+    width: 50%;
+    font-weight: 600;
+
+}
+
+.home-btn a {
+    text-decoration: none;
+}
+
+.home-btn img {
+    width: 36px;
+    height: 36px;
+}
+
+/* nav end style  */
+
+/* header style start here  */
+.banner {
+    margin: auto 120px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-title {
+    color: #3A3A3A;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.header-description {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.primary-btn {
+    color: #FFF;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    border-radius: 30px;
+
+}
+
+
+
+.banner-images img {
+    width: 350px;
+    height: 330px;
+    background-image: url("../images/Circle design.svg");
+    background-size: cover;
+
+}
+
+
+/* ONLINE SHOPE STYLE START  */
+.online-shop {
+    margin: 70px 150px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid seashell;
+}
+
+/* Popular Collection style start */
+
+
+.Popular-Collection-container h2 {
+    color: #3A3A3A;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.box {
+    background-color: rgb(247, 245, 245);
+    border: 1px solid salmon;
+    border-radius: 8px;
+    padding: 14px;
+    box-shadow: 2px 5px 5px rgb(247, 225, 225);
+
+}
+
+.box img {
+    display: flex;
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+
+}
+
+.btn-see {
+    color: rgba(224, 44, 109, 0.87);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 50px;
+    position: absolute;
+    right: 100px;
+}
+
+/* Featured products at one place style start  */
+.featured {
+    margin: 150px 160px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-size: 2.2rem;
+    font-weight: 700;
+
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.featured-images img {
+    width: 404px;
+    height: 270px;
+    border-radius: 9px;
+
+}
+
+.btn-join {
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #E02C6D;
+    
+}
+
+.btn-join img {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* footer section style start  */
+footer{
+    color: #FFF;
+    text-align: center;
+    background-color: #0A0826;
+    border: 1px solid #0A0826;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+footer h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer h5{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+}
+footer p{
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 4px;
+    padding-bottom: 18px;
+}
+.icon img{
+    width: 1.5%;
+    height: 1.5%;
+    gap: 30px;
+    
+}
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+}
